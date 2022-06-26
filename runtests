@@ -1,0 +1,7 @@
+#!/bin/bash
+cd samples
+for i in *.spc ; do
+  j="${i%%.*}"
+  echo ../spc "$i" -o "$j.out"
+  ../spc "$i" -o "$j.out"
+done
