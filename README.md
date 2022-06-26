@@ -13,7 +13,7 @@ Some examples of what this Pascal like language looks like are in the samples fo
 - Run `make clean` to get the project to its original state.
 
 # Running
-- `./wrapper <source file> [-o output.out]` will compile the code from the given source file
+- `./spc <source file> [-o output.out]` will compile the code from the given source file
 - `./runtests` or `make test` will compile every file in the samples folder
 
 # What can it compile ?
@@ -49,5 +49,5 @@ LLVM including headers. Based on your OS distribution, it would be usually packa
 
 ### LLVM version
 
-Recommended version is version (9,) 10, 11 or 12 (currently latest). Older version may require changes.
+Recommended version is version 11. Older version may require changes.
 
